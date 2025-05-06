@@ -17,15 +17,6 @@
     <artifactId>selenium-manager</artifactId>
     <version>4.32.0</version>
 </dependency>
- 	<dependency>
- 		<groupId>SeleniunForb</groupId>
- 		<artifactId>Se</artifactId>
- 		<version>0.0.1-SNAPSHOT</version>
- 	</dependency>
- 	<dependency>
- 		<groupId>TestSelenium</groupId>
- 		<artifactId>Test</artifactId>
- 		<version>0.0.1-SNAPSHOT</version>
- 	</dependency>
+ 	
  </dependencies>
 </project>
