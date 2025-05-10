@@ -1,1 +1,7 @@
-<suite></suite>
+<suite name="TestSuite">
+	<test name="LginTest">
+		<classes>
+			<class name="test.LginTest"></class>
+		</classes>
+	</test>
+</suite>

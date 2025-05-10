@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-09T23:55:24 BRT" name="TestSuite" finished-at="2025-05-09T23:55:31 BRT" duration-ms="6539">
+    <groups>
+    </groups>
+    <test started-at="2025-05-09T23:55:24 BRT" name="LginTest" finished-at="2025-05-09T23:55:31 BRT" duration-ms="6539">
+      <class name="test.LginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LginTest@8f4ea7c]" started-at="2025-05-09T23:55:24 BRT" name="setup" finished-at="2025-05-09T23:55:29 BRT" duration-ms="5145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testValidLogin()[pri:0, instance:test.LginTest@8f4ea7c]" started-at="2025-05-09T23:55:29 BRT" name="testValidLogin" finished-at="2025-05-09T23:55:30 BRT" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LginTest@8f4ea7c]" started-at="2025-05-09T23:55:30 BRT" name="tearDown" finished-at="2025-05-09T23:55:31 BRT" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LginTest -->
+    </test> <!-- LginTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>

@@ -16,12 +16,14 @@ public class LoginPage {
 		this.driver = driver;
 	}
 	
-	public void enterUser() {
-		driver.findElement(userNameTextBox);
+	public void enterUser(String username) {
+		driver.findElement(userNameTextBox).clear();
+		driver.findElement(userNameTextBox).sendKeys(username);
 	}
 	
-	public void enterPassword() {
-		driver.findElement(passwordTextBox);
+	public void enterPassword(String password) {
+		driver.findElement(passwordTextBox).clear();
+		driver.findElement(passwordTextBox).sendKeys(password);
 	}
 	
 	public void clickLogin() {
